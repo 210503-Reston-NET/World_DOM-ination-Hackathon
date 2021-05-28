@@ -5,11 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Models;
+using BL;
 namespace RecipeWebApp.Controllers
 {
     public class RecipeController : Controller
     {
         // GET: HomeController1
+        private IRecipeBL _irecipBL;
+        public RecipeController(IRecipeBL e)
+        {
+            this._irecipBL = e;
+        }
         public ActionResult Index()
         {
             List<RecipeVM> receipes = new List<Recipe>() {
@@ -22,9 +28,11 @@ namespace RecipeWebApp.Controllers
             }.Select(recipe=>new RecipeVM(recipe)).ToList();
 
 
-         
 
-       
+            /*return View(_irecipBL.GetAllRecipies().Select(recipe => new RecipeVM(recipe))
+               .ToList()
+               );*/
+
 
 
 
@@ -46,10 +54,18 @@ namespace RecipeWebApp.Controllers
         // POST: HomeController1/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(RecipeVM recipPM)
         {
             try
             {
+                _irecipBL.AddRecipe(new Recipe
+                {
+                    Name = recipPM.Name,
+                    Origin = recipPM.Origin,
+                    CalorieCount = recipPM.CalorieCount,
+                    Servings = recipPM.Servings
+
+                });
                 return RedirectToAction(nameof(Index));
             }
             catch
