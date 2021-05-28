@@ -9,9 +9,9 @@ namespace BL
 
         Recipe AddRecipe(Recipe recipe);
 
-        Recipe GetRecipeByName(string recipe);
-        Recipe GetRecipeByTag(int tagKey);
+        List<Recipe> GetRecipesByName(string recipe);
+       // Recipe GetRecipeByTag(int tagKey);
 
-        List<Recipe> GetRecipeByAuthor(AppUser author);
+        //List<Recipe> GetRecipeByAuthor(AppUser author);
     }
 }

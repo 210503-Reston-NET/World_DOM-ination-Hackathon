@@ -47,7 +47,8 @@ namespace DL.Migrations
                     CalorieCount = table.Column<double>(type: "double precision", nullable: false),
                     Servings = table.Column<int>(type: "integer", nullable: false),
                     Vegetarian = table.Column<bool>(type: "boolean", nullable: false),
-                    Vegan = table.Column<bool>(type: "boolean", nullable: false)
+                    Vegan = table.Column<bool>(type: "boolean", nullable: false),
+                    AuthorID = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {

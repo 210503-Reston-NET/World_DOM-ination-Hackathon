@@ -5112,6 +5112,7 @@
     },
     "System.Security.Permissions/4.7.0": {
       "sha512": "dkOV6YYVBnYRa15/yv004eCGRBVADXw8qRbbNiCn/XpdJSUXkkUeIvdvFHkvnko4CdKMqG8yRHC4ox83LSlMsQ==",
+<<<<<<< HEAD
       "type": "package",
       "path": "system.security.permissions/4.7.0",
       "files": [
@@ -5194,6 +5195,90 @@
     "System.Security.SecureString/4.3.0": {
       "sha512": "PnXp38O9q/2Oe4iZHMH60kinScv6QiiL2XH54Pj2t0Y6c2zKPEiAZsM/M3wBOHLNTBDFP0zfy13WN2M0qFz5jg==",
       "type": "package",
+=======
+      "type": "package",
+      "path": "system.security.permissions/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Security.Permissions.dll",
+        "lib/net461/System.Security.Permissions.xml",
+        "lib/netcoreapp3.0/System.Security.Permissions.dll",
+        "lib/netcoreapp3.0/System.Security.Permissions.xml",
+        "lib/netstandard2.0/System.Security.Permissions.dll",
+        "lib/netstandard2.0/System.Security.Permissions.xml",
+        "ref/net461/System.Security.Permissions.dll",
+        "ref/net461/System.Security.Permissions.xml",
+        "ref/netcoreapp3.0/System.Security.Permissions.dll",
+        "ref/netcoreapp3.0/System.Security.Permissions.xml",
+        "ref/netstandard2.0/System.Security.Permissions.dll",
+        "ref/netstandard2.0/System.Security.Permissions.xml",
+        "system.security.permissions.4.7.0.nupkg.sha512",
+        "system.security.permissions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.SecureString/4.3.0": {
+      "sha512": "PnXp38O9q/2Oe4iZHMH60kinScv6QiiL2XH54Pj2t0Y6c2zKPEiAZsM/M3wBOHLNTBDFP0zfy13WN2M0qFz5jg==",
+      "type": "package",
+>>>>>>> 44033f29b5cae6e458a7d88a8da8565dcf77b3a9
       "path": "system.security.securestring/4.3.0",
       "files": [
         ".nupkg.metadata",
@@ -5949,19 +6034,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sahat\\.nuget\\packages\\": {}
+    "C:\\Users\\daust\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+      "projectUniqueName": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
       "projectName": "RecipeWebApp",
-      "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
-      "packagesPath": "C:\\Users\\sahat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
+      "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+      "packagesPath": "C:\\Users\\daust\\.nuget\\packages\\",
+      "outputPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sahat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daust\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5975,6 +6060,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\BL\\BL.csproj": {
               "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\BL\\BL.csproj"
             },
@@ -5983,6 +6069,16 @@
             },
             "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj": {
               "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj"
+=======
+            "C:\\Revature\\World_DOM-ination-Hackathon\\BL\\BL.csproj": {
+              "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\BL\\BL.csproj"
+            },
+            "C:\\Revature\\World_DOM-ination-Hackathon\\DL\\DL.csproj": {
+              "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\DL\\DL.csproj"
+            },
+            "C:\\Revature\\World_DOM-ination-Hackathon\\Models\\Models.csproj": {
+              "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\Models\\Models.csproj"
+>>>>>>> 44033f29b5cae6e458a7d88a8da8565dcf77b3a9
             }
           }
         }
@@ -6000,6 +6096,7 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+<<<<<<< HEAD
             "target": "Package",
             "version": "[5.0.6, )"
           },
@@ -6016,6 +6113,24 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[5.0.6, )"
+=======
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.6, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[5.0.6, )"
+>>>>>>> 44033f29b5cae6e458a7d88a8da8565dcf77b3a9
           }
         },
         "imports": [
@@ -6036,8 +6151,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   }
+=======
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> 44033f29b5cae6e458a7d88a8da8565dcf77b3a9
 }
