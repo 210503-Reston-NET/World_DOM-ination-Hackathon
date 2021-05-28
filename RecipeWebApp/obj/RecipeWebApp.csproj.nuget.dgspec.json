@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj": {}
+    "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj": {
+    "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
-        "projectName": "RecipeWebApp",
-        "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
-        "packagesPath": "C:\\Users\\daust\\.nuget\\packages\\",
-        "outputPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
+        "projectUniqueName": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\sahat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\daust\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sahat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,70 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+        "projectName": "RecipeWebApp",
+        "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+        "packagesPath": "C:\\Users\\sahat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sahat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\sahat\\Documents\\Richard\\MVC\\World_DOM-ination-Hackathon\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
@@ -57,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
