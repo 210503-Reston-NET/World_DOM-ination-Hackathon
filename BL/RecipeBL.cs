@@ -24,16 +24,16 @@ namespace BL
         }
         public Recipe GetRecipeByName(string recipe)
         {
-            return new Recipe();
+            return _database.GetRecipeByName(recipe);
         }
-        public Recipe GetRecipeByTag()
+        public Recipe GetRecipeByTag(int tagKey)
         {
-            return new Recipe();
+            return _database.GetRecipeByTag(tagKey);
         }
 
         public List<Recipe> GetRecipeByAuthor(AppUser author)
         {
-            return new List<Recipe>();
+            return _database.GetRecipeByAuthor(author);
         }
     }
 }

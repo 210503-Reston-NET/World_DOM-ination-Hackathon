@@ -23,7 +23,7 @@ namespace DL
         {
             return new Recipe();
         }
-        public Recipe GetRecipeByTag()
+        public Recipe GetRecipeByTag(int tagKey)
         {
             return new Recipe();
         }
