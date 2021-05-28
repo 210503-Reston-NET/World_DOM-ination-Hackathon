@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jean\\.nuget\\packages\\": {}
+    "C:\\Users\\daust\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Revature\\jean-code\\1-csharp\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+      "projectUniqueName": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
       "projectName": "RecipeWebApp",
-      "projectPath": "C:\\Revature\\jean-code\\1-csharp\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
-      "packagesPath": "C:\\Users\\Jean\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\jean-code\\1-csharp\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
+      "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\RecipeWebApp.csproj",
+      "packagesPath": "C:\\Users\\daust\\.nuget\\packages\\",
+      "outputPath": "C:\\Revature\\World_DOM-ination-Hackathon\\RecipeWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daust\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
