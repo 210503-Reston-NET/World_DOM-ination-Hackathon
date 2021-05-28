@@ -1,8 +1,8 @@
-﻿using System;
-
-public class Ingredient
+namespace Models
 {
-	public int ID { get; set; }
+    public class Ingredient
+    {
+    public int ID { get; set; }
 
 	public int RecipeID { get; set; }
 
@@ -11,4 +11,5 @@ public class Ingredient
 	public string Measurement { get; set; }
 
 	public double Quantity { get; set; }
+    }
 }
