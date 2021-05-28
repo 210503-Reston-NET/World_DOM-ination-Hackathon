@@ -12,6 +12,7 @@ public class RecipeVM
 	public double CalorieCount { get; set; }
 
 	public int Servings { get; set; }
+	public RecipeVM() { }
 	public RecipeVM(Recipe recipe)
 	{
 		this.ID = recipe.ID;
