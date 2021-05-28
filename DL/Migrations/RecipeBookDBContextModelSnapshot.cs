@@ -82,7 +82,8 @@ namespace DL.Migrations
 
                     b.Property<bool>("Vegetarian")
                         .HasColumnType("boolean");
-
+                    b.Property<int>("AuthorID")
+                        .HasColumnType("integer");
                     b.HasKey("ID");
 
                     b.ToTable("Recipes");

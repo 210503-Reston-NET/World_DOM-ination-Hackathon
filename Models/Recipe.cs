@@ -14,5 +14,7 @@ namespace Models
 
     public bool Vegetarian {get; set;}
     public bool Vegan {get; set;}
+
+    public int AuthorID{ get; set; }
     }
 }

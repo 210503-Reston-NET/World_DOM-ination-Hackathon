@@ -27,7 +27,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Revature\\World_DOM-ination-Hackathon\\DL\\DL.csproj": {
+                "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\DL\\DL.csproj"
+              },
+              "C:\\Revature\\World_DOM-ination-Hackathon\\Models\\Models.csproj": {
+                "projectPath": "C:\\Revature\\World_DOM-ination-Hackathon\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

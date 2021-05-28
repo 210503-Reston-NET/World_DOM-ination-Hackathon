@@ -1559,6 +1559,10 @@
       "BL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DL": "1.0.0",
+          "Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },

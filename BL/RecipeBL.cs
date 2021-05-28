@@ -17,23 +17,23 @@ namespace BL
         {
             if(_database.GetRecipe(recipe) != null)
             {
-                throw new Exception("Restaurant already exists :<");
+                throw new Exception("Recipe already exists. :<");
             }
             else
             return _database.AddRecipe(recipe);
         }
-        public Recipe GetRecipeByName(string recipe)
+        public List<Recipe> GetRecipesByName(string recipe)
         {
-            return _database.GetRecipeByName(recipe);
+            return _database.GetRecipesByName(recipe);
         }
-        public Recipe GetRecipeByTag(int tagKey)
+       /* public Recipe GetRecipeByTag(int tagKey)
         {
             return _database.GetRecipeByTag(tagKey);
-        }
+        }*/
 
-        public List<Recipe> GetRecipeByAuthor(AppUser author)
+        /*public List<Recipe> GetRecipeByAuthor(AppUser author)
         {
             return _database.GetRecipeByAuthor(author);
-        }
+        }*/
     }
 }
