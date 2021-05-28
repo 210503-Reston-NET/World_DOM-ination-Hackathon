@@ -9,7 +9,7 @@ namespace DL
         {
 
         }
-        protected RecipeBookDBContext()
+        public RecipeBookDBContext() : base()
         {
 
         }

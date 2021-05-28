@@ -11,5 +11,8 @@ namespace Models
 	public double CalorieCount { get; set; }
 
 	public int Servings { get; set; }
+
+    public bool Vegetarian {get; set;}
+    public bool Vegan {get; set;}
     }
 }
