@@ -11,10 +11,16 @@ namespace Models
 	public double CalorieCount { get; set; }
 
 	public int Servings { get; set; }
+		public Recipe() { }
+		public Recipe(int id, string name, string origin, double calorieCount, int serving)
+		{
+			this.ID = ID;
+			this.Name = name;
+			this.Origin = origin;
+			this.CalorieCount = calorieCount;
+			this.Servings = serving;
 
-    public bool Vegetarian {get; set;}
-    public bool Vegan {get; set;}
 
-    public int AuthorID{ get; set; }
-    }
+		}
+	}
 }
